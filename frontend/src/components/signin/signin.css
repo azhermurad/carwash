@@ -1,0 +1,129 @@
+.sign-parent {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 14px 25px;
+}
+
+.sign-logo, .sign-footer {
+    text-align: center;
+}
+
+.sign-cont {
+    height: calc(100% - 84px);
+    width: 100%;
+    padding: 10px 55px;
+    display: flex;
+    align-items: center;
+}
+
+.sign-truck {
+    width: calc(100% - 450px);
+    padding-right: 45px;
+}
+
+.sign-truck img {
+    height: 100%;
+    width: 100%;
+}
+
+.sign-form {
+    margin: auto;
+    width: 450px;
+}
+
+.sign-form h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00446B;
+    margin-bottom: 0;
+}
+
+.sign-form p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #a5a5a5;
+    margin-bottom: 13px;
+}
+
+.sign-form .load-input-wrapper {
+    display: block;
+}
+
+.sign-form .load-form {
+    margin-bottom: 0 !important;
+}
+
+.sign-form .load-input {
+    padding-right: 0 !important;
+}
+
+.sign-form input, .sign-form button, .sign-form .form-buttons {
+    width: 100% !important;
+}
+
+.sign-forget {
+    text-align: end;
+    padding: 2px 0 18px 0;
+}
+
+.sign-form a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #ff7b00;
+}
+
+.sign-form-bottom {
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.sign-form-bottom p {
+    color: black;
+}
+
+.sign-pass-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-pass-cont .load-input {
+    width: 100%;
+}
+
+.sign-pass-cont-sep {
+    padding: 0 7px;
+}
+
+@media screen and (max-width:500px) {
+    .sign-form .load-form {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .sign-form {
+        width: 100%;
+    }
+
+    .sign-cont {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .sign-truck {
+        display: none;
+    }
+
+    .sign-cont {
+        justify-content: center;
+    }
+}

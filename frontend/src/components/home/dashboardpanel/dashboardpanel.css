@@ -1,0 +1,41 @@
+.dashboard {
+    width: 81%;
+    height: 100%;
+}
+
+.dashboard-wrapper {
+    height: calc(100% - 55px);
+    overflow-y: auto;
+    background: #f8f8f8;
+}
+
+.dashboard-wrapper::-webkit-scrollbar,
+.MuiDataGrid-virtualScroller::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.dashboard-wrapper::-webkit-scrollbar-thumb,
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb {
+    background-color: #8e8e938e;
+    border-radius: 10px;
+}
+
+.dashboard-cont {
+    height: 100%;
+    padding: 25px;
+}
+
+@media screen and (max-width:750px) {
+    .home-graph {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .dashboard {
+        border-left: 0px;
+        width: 100%;
+    }
+}

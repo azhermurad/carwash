@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+p, h1, h2 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+input:focus, select:focus, button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #FF7B00;
+  box-shadow: 0 0 0 #fff;
+}
+
+.accordion-item {
+  padding: 8px 15px;
+}
+.load-form {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 20px 30px;
+  margin-bottom: 35px;
+  max-width: 100%;
+}
+
+.load-input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.load-input {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.load-input label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #00446B;
+  margin-bottom: 11px;
+}
+
+.load-input .form-input_ {
+  height: 40px;
+  border-radius: 4px;
+  background: #F8F8F8;
+  border: 1px solid #EEEEEE;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: black;
+}
+
+.load-input .form-input_.select1 {
+  width: 220px;
+  background: #F8F8F8;
+}
+
+.load-input .form-input_.select2 {
+  width: 320px;
+  background: #F8F8F8;
+}
+
+.load-input .form-input_.input2 {
+  width: 310px;
+}
+
+.load-input .form-input_.input3 {
+  width: 100%;
+}
+
+.load-input .form-input_.input {
+  width: 430px;
+}
+
+.load-input .form-input_.select1>option:first-child {
+  color: #979696;
+}
+
+.form-buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-primary {
+  height: 37px;
+  width: 140px;
+  border-radius: 4px;
+  color: white;
+  background: #FF7B00;
+  border: 1px solid #FF7B00;
+}
+
+.btn-cancel {
+  background: white;
+  color: #FF7B00;
+}
+
+@media screen and (max-width:540px) {
+  .load-input .form-input_.input {
+    width: 310px;
+  }
+}
+
+@media screen and (max-width:414px) {
+  .load-input .form-input_.input, .load-input .form-input_.input2 {
+    width: 250px;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+    width: 98%;
+  }
+
+  .form-buttons>button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.accordion-button {
+  background: transparent !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #000;
+  padding: 0 !important;
+}
+
+.accordion-body {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #000;
+  padding: 7px 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("assets/images/172525_plus_icon.svg") !important;
+}
+.accordion-button:not(.collapsed)::before {
+  background-image: url("assets/images/172525_plus_icon.svg") !important;
+}
+.accordion-button::before {
+  background-image: url("assets/images/172525_plus_icon.svg") !important;
+}
+/*.accordion-button {*/
+/*  background-image: url("assets/images/172525_plus_icon.svg") !important;*/
+/*}*/
+.accordion-button::after{
+  background-image: url("assets/images/172525_plus_icon.svg") !important;
+}
+.accordion-button collapsed{
+  background-image: url("assets/images/172525_plus_icon.svg") !important;
+}
+
+.testomonialIcon{
+  font-size: 30px;
+  color: #9c9c9c;
+}
+.bannerIcon{
+  font-size: 30px;
+  color: white;
+}
+
+.logo{
+  width: 15%;
+  height: 15%;
+}
+
+@media screen and (max-width: 575px) {
+  .logo{
+    width: 45%;
+    height: 45%;
+  }
+  .badgeDesc{
+    font-size: 8px;
+  }
+  .footerDesc{
+    font-size: 9px;
+  }
+
+}
+#example_wrapper{
+  overflow: auto;
+}
+#example_length,#example_filter{
+  margin-bottom: 3%;
+}
+.dashboardDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dashboardDivCounter{
+
+  color: white;
+  background: rgb(255, 123, 0);
+  width: 21%;
+  margin-left: 3%;
+  padding: 3%;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+.dashboardDivCounter h4{
+  font-size: 20px!important;
+}

@@ -1,0 +1,153 @@
+.sidebar-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+}
+
+.sidebar {
+    width: 255px;
+    height: 100%;
+    background: white;
+    padding: 13px;
+}
+
+.brand-logo {
+    width: 100%;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-logo img {
+    width: 145px;
+}
+
+#pc {
+    display: none
+}
+
+@media screen and (max-width:575px) {
+    #pc {
+        display: block
+    }
+}
+
+@media screen and (min-width:901px) {
+    .sidebar-wrapper {
+        display: block !important;
+        position: relative;
+        width: 19%;
+        height: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .close-sidebar {
+        display: none !important;
+    }
+}
+
+.sidebar-cont {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-cont::-webkit-scrollbar {
+    width: 0px;
+}
+
+.sidebar-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-top .avatar-admin {
+    width: 80px;
+    border-radius: 50px;
+    margin: 24px 0 10px 0;
+}
+
+.sidebar-top .avatar-admin img {
+    border-radius: 50px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.sidebar-top .admin-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00446B;
+}
+
+.sidebar-top .admin-role {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #5E5F61;
+}
+
+.sidebar-separator {
+    margin: 5px 0;
+    height: 1px;
+}
+
+.sidebar-bottom {
+    padding: 5px;
+}
+
+.sidebar-bottom .sidebar-links {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    position: relative;
+}
+
+.sidebar-bottom .sidebar-links p {
+    transform: translate(-18px, 0px);
+    width: 4px;
+    height: 28px;
+    position: fixed;
+    z-index: 100;
+}
+
+.sidebar-bottom .sidebar-links img {
+    margin-right: 13px;
+    width: 24px;
+}
+
+.sidebar-bottom .sidebar-links a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.01em;
+}
+
+.sidebar-Quote {
+    position: absolute;
+    bottom: 13px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.close-sidebar {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top: 10px;
+    display: block;
+}

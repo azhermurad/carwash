@@ -1,0 +1,8 @@
+.admin-panel{
+    height: 100vh;
+    width: 100%;
+}
+.admin-cont{
+    height: 100vh;
+    display: flex;
+}

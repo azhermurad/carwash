@@ -1,0 +1,33 @@
+// colors
+$black: #000000;
+$white: #ffffff;
+$theme-color: #ff7b00;
+$secondary-color: #00446b;
+$border-color: #c4c4c4;
+$text-color: #5e5f61;
+// font
+$heebo: 'Heebo';
+// breakpoints
+@mixin breakpoint-1260 {
+    @media (max-width: 1260px) {
+        @content;
+    }
+}
+
+@mixin breakpoint-1600 {
+    @media (max-width: 1600px) {
+        @content;
+    }
+}
+
+@mixin breakpoint-355 {
+    @media (max-width: 355px) {
+        @content;
+    }
+}
+
+@mixin breakpoint-511 {
+    @media (max-width: 511px) {
+        @content;
+    }
+}

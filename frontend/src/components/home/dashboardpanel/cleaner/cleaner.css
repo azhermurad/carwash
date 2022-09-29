@@ -1,0 +1,46 @@
+.driver-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dashboard-head-title{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 59px;
+    letter-spacing: 0em;
+    color: #00446B;
+}
+
+.driver-head>div {
+    display: flex;
+    align-items: center;
+}
+
+.driver-head>div .input-header-admin input {
+    height: 30px !important;
+    margin-right: 15px;
+}
+
+.driver-head>div .input-header-admin img {
+    transform: translate(-196px, 8px);
+}
+
+@media screen and (max-width:419px) {
+    .driver-head>div .input-header-admin img {
+        transform: translate(-168px, 8px);
+    }
+}
+
+@media screen and (max-width:515px) {
+    .driver-head {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .driver-head .nav-buttons {
+        display: block;
+    }
+}

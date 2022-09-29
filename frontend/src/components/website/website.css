@@ -1,0 +1,46 @@
+.footer{
+    background: black;
+    color: white;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+}
+.multi-links{
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    width: 100%;
+}
+.c1{
+    background: #f4faff;
+}
+.c2{
+    background: #ecf8ff;
+}
+.faqs{
+    background: white;
+    border-radius: 10px;
+    margin-top: 13%;
+    margin-bottom: 12%;
+}
+.card,.accordion,.accordion-item{
+    border: none;
+}
+.multi-step{
+    margin-top: 2%;
+    background: white;
+}
+.customButtonColor{
+    background: #fcae03;
+    color: white;
+    outline: none;
+    border: none;
+}
+.customButtonColor:hover{
+    background: #fcae03;
+    color: white;
+    outline: none;
+    border: none;
+}

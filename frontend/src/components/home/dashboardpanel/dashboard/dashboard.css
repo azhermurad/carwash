@@ -1,0 +1,60 @@
+.home-graph {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.home-graph::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.home-graph::-webkit-scrollbar-thumb {
+    background-color: #8e8e938e;
+    border-radius: 10px;
+}
+
+.graph-cont {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    width: 100%;
+    height: 340px;
+}
+
+.graph-head {
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graph-head p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.graph-head select {
+    width: 60px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #00446b;
+}
+
+.graph-sep {
+    padding: 15px 8px;
+}
+
+.graph-cont .graph {
+    width: 100%;
+    height: 290px;
+}

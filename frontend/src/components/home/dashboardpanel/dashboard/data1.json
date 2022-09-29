@@ -1,0 +1,18 @@
+{
+    "data1":[
+        {"id":1,"load_no":"11f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Picked"},
+        {"id":2,"load_no":"12f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Picked"},
+        {"id":3,"load_no":"13f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Picked"},
+        {"id":4,"load_no":"14f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Picked"},
+        {"id":5,"load_no":"15f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Picked"},
+        {"id":6,"load_no":"16f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Picked"}
+    ],
+    "data2":[
+        {"id":1,"load_no":"11f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Delivered","payment_status":"Pending"},
+        {"id":2,"load_no":"12f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Delivered","payment_status":"Paid"},
+        {"id":3,"load_no":"13f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Delivered","payment_status":"Paid"},
+        {"id":4,"load_no":"14f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Delivered","payment_status":"Pending"},
+        {"id":5,"load_no":"15f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Delivered","payment_status":"Pending"},
+        {"id":6,"load_no":"16f233f3faef","driver":"Mark Johnson","pickup":"Chicago, IL","destination":"Minneapolis, MN","pickup_date":"2022/01/01","delivery_date":"2022/01/01","rate":"$3000","delivery_status":"Delivered","payment_status":"Paid"}
+    ]
+}
